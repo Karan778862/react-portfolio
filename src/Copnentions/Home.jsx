@@ -14,9 +14,7 @@ const Home = () => {
         <div>
           <h2 className='text-4xl  sm:text-7xl font-bold text-white'>i'm a Full Stack Developer</h2>
           <p className='text-gray-500 py-4 max-w-md'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Ab iusto quos incidunt minus ex quasi beatae
-              facilis velit eius expedita?
+          i'm karan kumar an enthusiatic and ambitious web developer with  a fervent passion for tranforming innovative idea into website.
           </p>
           <div>
             <a href={cv} download  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'
