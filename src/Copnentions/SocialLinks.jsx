@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import cv from "../assets/cv.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -21,7 +22,7 @@ const SocialLinks = () => {
           Github <FaGithub size={34} />
         </>
       ),
-      hraf: "https://github.com",
+      hraf: "https://github.com/Karan778862",
     },
     {
       id: 3,
@@ -39,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={34} />
         </>
       ),
-      hraf: "https://linkedin.com",
+      hraf: {cv},
       style: "rounded-br-md",
       download: true,
     },
