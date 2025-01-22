@@ -1,8 +1,9 @@
-import React from "react";
+
 import leptop from "../assets/Portfolio/leptop.jpg";
 import ecoomerce from "../assets/Portfolio/react-ecoomerce.png";
 import whimMusice from "../assets/Portfolio/whim music.png"
 import leetch from "../assets/Portfolio/leetchChatApp.png"
+import folio from "../assets/Portfolio/jobfolio.png"
 
 const Portfolio = () => {
   const portfolio = [
@@ -26,9 +27,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: leptop,
-      href_demo:"",
-      href_code:"",
+      src: folio,
+      href_demo:"https://jobfolio-kdgz.onrender.com",
+      href_code:"https://github.com/Karan778862/JobFolio",
     },
     {
       id: 5,
