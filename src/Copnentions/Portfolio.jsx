@@ -9,9 +9,9 @@ const Portfolio = () => {
   const portfolio = [
     {
       id: 1,
-      src: leetch,
-      href_demo:"",
-      href_code:"https://github.com/Karan778862/leetchChat.git",
+      src: folio,
+      href_demo:"https://jobfolio-kdgz.onrender.com",
+      href_code:"https://github.com/Karan778862/JobFolio",
     },
     {
       id: 2,
@@ -27,16 +27,11 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: folio,
-      href_demo:"https://jobfolio-kdgz.onrender.com",
-      href_code:"https://github.com/Karan778862/JobFolio",
-    },
-    {
-      id: 5,
-      src: leptop,
+      src: leetch,
       href_demo:"",
-      href_code:"",
+      href_code:"https://github.com/Karan778862/leetchChat.git",
     },
+    
   ];
 
   return (
